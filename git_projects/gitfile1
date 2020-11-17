@@ -1,0 +1,9 @@
+#!/bin/bash
+DATE=`date`
+echo "Today's date is $DATE."
+USERS=`who | wc -l`
+echo "There are $USERS logged in"
+
+
+
+
